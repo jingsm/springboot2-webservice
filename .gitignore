@@ -1,3 +1,9 @@
 # Project exclude paths
 /.gradle/
 /.idea/
+/build/
+build/classes/java/main/com/sonic/springboot/web/dto/
+build/classes/java/test/com/sonic/springboot/web/dto/
+build/reports/
+build/test-results/
+build/tmp/
