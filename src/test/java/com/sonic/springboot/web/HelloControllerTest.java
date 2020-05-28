@@ -31,7 +31,7 @@ public class HelloControllerTest {
     }
 
     @Test
-    public void helloDtr_return() throws Exception {
+    public void helloDto_return() throws Exception {
         String name = "hello";
         int amount = 1000;
 
