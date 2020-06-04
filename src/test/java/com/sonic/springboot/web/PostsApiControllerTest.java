@@ -40,7 +40,7 @@ public class PostsApiControllerTest {
     }
 
     @Test
-    public void Posts_Save() throws Exception {
+    public void Posts_등록된다() throws Exception {
         //given
         String title = "title";
         String content = "content";
@@ -68,7 +68,7 @@ public class PostsApiControllerTest {
     }
 
     @Test
-    public void Posts_Update() throws Exception {
+    public void Posts_수정된다() throws Exception {
         //given
         Posts savedPosts = postsRepository.save(Posts.builder()
                 .title("title")
